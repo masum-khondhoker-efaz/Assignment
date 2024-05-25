@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <link rel="stylesheet" href="@Url.Content("/Content/StyleSheet1.css")" />
+</head>
+
+<div class="side-bar">
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasLeftSidebar" aria-labelledby="offcanvasLeftSidebarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLeftSidebarLabel">Left Sidebar</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<main>
+
+    <div class="container py-5 m-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="bg-light m-1 p-2">
+                    <h2>Content 1</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    </p>
+                    <p> <a class="btn btn-outline-dark" href="#">Learn more &raquo;</a></p>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="bg-light m-1 p-2">
+                    <h2>Content 2</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                    <p> <a class="btn btn-outline-dark" href="#">Learn more &raquo;</a></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-light m-1 p-2">
+                    <h2>Content 3</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    </p>
+                    <p> <a class="btn btn-outline-dark" href="#">Learn more &raquo;</a></p>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="bg-light m-1 p-2">
+                    <h2>Content 4</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    </p>
+                    <p> <a class="btn btn-outline-dark" href="#">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
